@@ -25,6 +25,7 @@ out/
 .springBeans
 .sts4-cache
 bin/
+gradle.properties
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
