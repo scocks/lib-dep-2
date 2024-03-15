@@ -18,7 +18,7 @@ class MainTest {
     @Test
     void testGreet() {
         Library library = new Library();
-        String result = library.greet("Steve");
-        assertEquals("Greetings, Steve!", result);
+        String result = library.greet("lib-dep-2");
+        assertEquals("Greetings, lib-dep-2!", result);
     }
 }
