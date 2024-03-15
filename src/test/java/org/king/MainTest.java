@@ -1,7 +1,6 @@
-package org.libDep2;
+package org.king;
 
 import org.junit.jupiter.api.Test;
-import org.libDep2.Library;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
