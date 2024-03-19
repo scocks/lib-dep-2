@@ -5,7 +5,7 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'org.king.libDep1'
+group = 'org.king.libDep2'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -42,7 +42,7 @@ sonar {
 publishing {
     publications {
         maven(MavenPublication) {
-            artifact("build/libs/lib-dep-1-${version}.jar") {
+            artifact("build/libs/lib-dep-2-${version}.jar") {
                 extension 'jar'
             }
         }
